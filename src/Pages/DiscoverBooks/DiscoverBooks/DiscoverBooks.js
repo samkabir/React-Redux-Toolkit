@@ -32,9 +32,9 @@ const DiscoverBooks = (props) => {
                   <Toolbar />
                   
                   <List>
-                        <Link style={{textDecoration:'none', color:'black'}} to={`/discoverbooks/`}><ListItem button>Discover Books <Counter>{discover.length}</Counter> </ListItem></Link>
-                        <Link style={{textDecoration:'none', color:'black'}} to={`/discoverbooks/readingbooks`} ><ListItem button>Reading Books <Counter>{readingList.length}</Counter> </ListItem></Link>
-                        <Link style={{textDecoration:'none', color:'black'}} to={`/discoverbooks/finishedbooks`}><ListItem button>Finished Books <Counter>{finishedList.length}</Counter> </ListItem></Link>
+                        <Link style={{textDecoration:'none', color:'black'}} to={`/discoverbooks/`}><ListItem button>Discover Articles <Counter>{discover.length}</Counter> </ListItem></Link>
+                        <Link style={{textDecoration:'none', color:'black'}} to={`/discoverbooks/readingbooks`} ><ListItem button>Reading Articles <Counter>{readingList.length}</Counter> </ListItem></Link>
+                        <Link style={{textDecoration:'none', color:'black'}} to={`/discoverbooks/finishedbooks`}><ListItem button>Finished Articles <Counter>{finishedList.length}</Counter> </ListItem></Link>
                   </List>
 
             </div>
@@ -52,7 +52,7 @@ const DiscoverBooks = (props) => {
                 ml: { sm: `${drawerWidth}px` },
                 }}
             >
-                <Toolbar sx={{ backgroundColor:'black' }}>
+                <Toolbar sx={{ backgroundColor:'#000035' }}>
                 <IconButton
                     color="inherit"
                     aria-label="open drawer"
@@ -63,7 +63,7 @@ const DiscoverBooks = (props) => {
                     <MenuIcon />
                 </IconButton>
                 <Typography variant="h6" noWrap component="div">
-                    Discover Books !!!
+                    Discover Articles !!!
                 </Typography>
                 </Toolbar>
             </AppBar>
@@ -118,7 +118,7 @@ DiscoverBooks.propTypes = {
 };
 
 const Counter = styled.div`
-    background-color:black;
+    background-color:#000035;
     color:white;
     padding:2px 8px;
     margin-left:10px;

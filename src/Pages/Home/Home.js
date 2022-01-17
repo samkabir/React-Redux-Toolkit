@@ -7,9 +7,9 @@ const Home = () => {
       return (
             <Container>
                   <Wrapper>
-                        <h2>Welcome to the World of Books!</h2>
+                        <h2>Welcome to Online News Articles Blog!</h2>
                         <Link to="/discoverbooks">
-                              <Button>Go to Discover Books</Button>
+                              <Button>Go to Discover Articles</Button>
                         </Link>
                   </Wrapper>
             </Container>
@@ -22,7 +22,7 @@ const Wrapper = styled.div`
 const Button = styled.button`
       padding: 20px;
       font-size: 20px;
-      background-color: black;
+      background-color: #000035;
       border: none;
       color:white;
       &:hover{
@@ -32,7 +32,7 @@ const Button = styled.button`
             transition-delay: 0.1s;
             transition-duration: 0.3s;
             transition-timing-function: linear;
-            border:1px solid black;
+            border:1px solid #000035;
       }
 `;
 
